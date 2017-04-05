@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+  font-family: Quicksand;
+}
+
+#wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  }
+
+#content {
+  display: inline-block;
+}
+
+#forecast-box {
+  background: rgba(255,255,255,0.6);
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.text-center {
+  padding: 30px;
+}
+
+#forecast-summary {
+  padding: 5px 30px;
+}
+
+.temperature {
+  padding: 5px 30px 15px 30px;
+}
+
+.sunny {
+  background-image: url("https://youtechassociates.com/wp-content/uploads/2016/03/amazing-sunny-day-wallpaper-1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.rainy {
+  background-image: url("https://images3.alphacoders.com/157/157655.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cloudy {
+  background-image: url("http://wallpapers-hd-wide.com/wp-content/uploads/2015/11/empty_road_house_city_street_1920x1080.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.snowing {
+  background-image: url("http://kingofwallpapers.com/snowing/snowing-005.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.storm {
+  background-image: url("http://www.seeds4thesoul.com/wp-content/uploads/2016/01/storm-07.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.copyright {
+  font-size: 0.7em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+ color: #FFF;
+ text-shadow: 1px 1px 3px #000;
+}
+
+a:hover {
+  color: #123;
+}
+
+#unit {
+  color: rgb(80, 141, 244);
+}
